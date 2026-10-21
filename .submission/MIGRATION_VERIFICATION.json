@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_VERIFIED_REMOTE_PENDING",
+  "status": "PASS",
   "scope": "Packaging and file integrity, not runtime or field acceptance",
   "source_files": 1007,
   "lfs_files": {
@@ -58,5 +58,25 @@
       "members": 188,
       "crc": "PASS"
     }
+  ],
+  "public_clone_verified": true,
+  "public_clone_content_commit": "51d88988bd06a487cb916509675574187f186590",
+  "all_materialized_file_hashes_and_modes": "PASS",
+  "exact_source_file_sets": "PASS",
+  "source_git_blobs_except_navigation_readmes": "PASS",
+  "lfs_fresh_download": "PASS",
+  "lfs_public_zip_checks": [
+    {
+      "path": "docs/M1_M2_dataset_evidence_v002.zip",
+      "members": 950,
+      "crc": "PASS"
+    }
+  ],
+  "verified_at": "2026-10-21T02:17:05.624786+00:00",
+  "limitations": [
+    "Source histories are linked by pinned commit, not merged.",
+    "Existing binary document hyperlinks and historical commit links are preserved.",
+    "GitHub Download ZIP inclusion of LFS payloads was not tested.",
+    "No application, model inference, camera or PLC was executed."
   ]
 }
