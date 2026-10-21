@@ -1,0 +1,28 @@
+name: Import pinned project and documents
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: final-submission-import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    if: github.repository == 'tmdgns104/Engine_Assembly_Final_Submission'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - name: Check out submission repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          lfs: false
+      - name: Assemble and verify pinned snapshots
+        env:
+          GIT_TERMINAL_PROMPT: '0'
+          GIT_LFS_SKIP_SMUDGE: '1'
+        run: python3 .github/scripts/assemble_submission.py
