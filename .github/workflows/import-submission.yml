@@ -1,10 +1,9 @@
 name: Import pinned project and documents
 
+# One-time migration is complete. No push/schedule trigger and no automatic sync.
+# The importer refuses to overwrite already populated project/ or docs/ folders.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: [.github/workflows/import-submission.yml]
 
 permissions:
   contents: write
