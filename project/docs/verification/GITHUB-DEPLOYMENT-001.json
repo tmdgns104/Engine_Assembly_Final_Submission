@@ -1,0 +1,51 @@
+{
+  "task": "GITHUB-DEPLOYMENT-001",
+  "date": "2026-09-30",
+  "status": "PUBLISHED_CHECKOUT_VERIFIED_FRESH_HARDWARE_UNVERIFIED",
+  "publication": {
+    "repository": "https://github.com/tmdgns104/Engine_Assembly_Defect_Inspector",
+    "visibility": "PUBLIC",
+    "branch": "master",
+    "implementation_commit": "ce49b15ba67064f3651679cfa57280afca9bf4bb",
+    "local_remote_sha_match": true,
+    "github_model_blobs": {
+      "dynamic_parts_005": "da07d5304d5c91f12609a6d6cea324b5370af563",
+      "envelope_v007_fp16": "24121472a95b73f141a2b5a9fe86c3d6c830fe54"
+    },
+    "github_actions": "https://github.com/tmdgns104/Engine_Assembly_Defect_Inspector/actions/runs/36658234340",
+    "github_actions_conclusion": "success"
+  },
+  "snapshot": "Git index exported through git archive, without ignored local files",
+  "model_storage": "ordinary Git blobs, included in clone and Download ZIP",
+  "models": [
+    {"path": "jetson/products/ENGINE_Z3005_5/dynamic_parts_005/model.plan", "bytes": 10092164, "sha256": "743ce54b4d5c7b8a36addf3dbff50fa693ec4a509b31b476f68efc69f1bf2d6c"},
+    {"path": "jetson/products/ENGINE_Z3005_5/envelope_v007_fp16/model.plan", "bytes": 13556092, "sha256": "c82f2658ac20d06985a647c15e551c681e394451cfa1c53baed64f639bcebf83"}
+  ],
+  "source_runtime_release_id": "engine-dev-82b71a21ad98dda7",
+  "runtime_files_and_assets": 111,
+  "checks": {
+    "windows_clean_source_focused_tests": {"passed": 68, "seconds": 77.962, "log": "dist/github-deployment-001/fresh-notebook-tests.txt"},
+    "linux_clean_source_deployment_tests": {"passed": 25, "seconds": 223.649, "log": "dist/github-deployment-001/linux-deployment-tests.txt"},
+    "final_linux_installer_tests": {"passed": 5, "seconds": 70.584, "log": "dist/github-deployment-001/final-linux-install.txt"},
+    "aarch64_python310_dependency_wheels": "PASS: all pinned runtime requirements and transitive dependencies resolved/downloaded",
+    "windows_python313_new_environment_install": "PASS: numpy 2.5.2, OpenCV 5.0.0.93, Pillow 12.3.0",
+    "windows_new_environment_gui_tests": {"passed": 5, "seconds": 20.864, "pip_check": "PASS", "log": "dist/github-deployment-001/new-env-gui-tests.txt"},
+    "clean_snapshot_bundle": {"release_id": "engine-dev-82b71a21ad98dda7", "bytes": 21229569, "sha256": "82fdae80b8ce3d7881d467446d0badacb0fa125dc3eed2edfc618cdb12aa5056"},
+    "git_diff_check": "PASS: byte-preserved CRLF assets use explicit cr-at-eol attributes",
+    "publication_audit": {"tree": "db8a29f32c66798daa5d4701b570e474eff51ce9", "reachable_objects": 1169, "text_blobs_checked": 785, "credential_pattern_findings": 0, "oversize_files": 0, "archives": 0, "protected_objects_read": 0}
+  },
+  "preservation": {
+    "original_local_products": "preserved under notebook/deployment/products, excluded from new packaging",
+    "concurrent_capture_edits": "worktree changes after the verified snapshot are preserved and not automatically staged",
+    "hardware_design_edits": "not staged",
+    "jetson_device_and_plc_changed": false,
+    "e04_accessed": false
+  },
+  "limitations": [
+    "Linux installation tests use WSL x86_64 with synthetic camera paths; no GPU/camera/PLC is opened.",
+    "Fresh physical Orin Nano inference and another physical Windows notebook remain UNVERIFIED.",
+    "Known conveyor empty-surface occupancy and PLC display/readback issues remain open.",
+    "The separately built Windows EXE was not republished because its build-input hashes did not match the source snapshot; source installation is the published path.",
+    "An initial whole-suite run using the legacy working-directory imports was interrupted and is not acceptance evidence. The 68 tests above use only the clean source snapshot."
+  ]
+}

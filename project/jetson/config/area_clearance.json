@@ -1,0 +1,12 @@
+{
+  "version": "area_clearance_dark_surface_v001_bench",
+  "mode": "DARK_SURFACE_SELF_OBSERVED",
+  "reference_version": "DARK_SURFACE_GEOMETRY_V1",
+  "shape": [720, 1280, 3],
+  "color": "BGR_UINT8",
+  "roi": "DYNAMIC_DARK_SURFACE_FULL_HEIGHT",
+  "clear_seconds": 1.2,
+  "clear_minimum_frames": 6,
+  "maximum_gap_seconds": 0.5,
+  "maximum_age_seconds": 1.0
+}
