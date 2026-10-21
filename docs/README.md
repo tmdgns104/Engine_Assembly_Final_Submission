@@ -1,10 +1,13 @@
+> **통합 제출본:** [전체 안내](../README.md) · [실행·학습 코드](../project/) · [보고서·증빙](../docs/)
+> 아래 본문은 원본 설명을 보존하고 현재 자료로 이동하는 링크만 새 위치에 맞췄습니다. 과거 커밋 링크는 출처로 유지합니다.
+
 # Engine Assembly — 최종 문서와 원본 증빙
 
 Engine_Assembly_Defect_Inspector 프로젝트의 산출물 저장소입니다. **최종 결과보고서 → 세부 보고서 → 대응 원본 증빙·DB 조회 자료** 순서로 검토할 수 있습니다.
 
 **시작:** [최종 결과보고서 v1.2](10_final_report_v1_2.pdf) · [제출 안내](00_%EC%A0%9C%EC%B6%9C%EC%95%88%EB%82%B4.md) · [근거 ID별 원본 경로](EVIDENCE_INDEX.md)
 
-[실행·학습 코드 저장소](https://github.com/tmdgns104/Engine_Assembly_Defect_Inspector)의 README는 승인 09 v1.1과 동일합니다.
+[실행·학습 코드 저장소](../project/)의 README는 승인 09 v1.1과 동일합니다.
 
 ## 최신 문서
 
@@ -37,7 +40,7 @@ DB·SQL·예상 CSV는 [DB 검토 자료](review_kit/README_KO.md)에서, 과거
 
 ## 다운로드
 
-큰 데이터셋 ZIP은 [실파일 다운로드](https://github.com/tmdgns104/Engine_Assembly_Runtime_Review/raw/refs/heads/main/M1_M2_dataset_evidence_v002.zip)를 사용하거나 Git LFS로 clone 후 `git lfs pull`을 실행하세요.
+큰 데이터셋 ZIP은 [실파일 다운로드](https://github.com/tmdgns104/Engine_Assembly_Final_Submission/raw/refs/heads/main/docs/M1_M2_dataset_evidence_v002.zip)를 사용하거나 Git LFS로 clone 후 `git lfs pull`을 실행하세요.
 Code → Download ZIP의 LFS 실파일 포함은 확인하지 않았습니다. [파일별 SHA-256](FILE_MANIFEST.json)으로 내려받은 파일을 확인할 수 있습니다.
 로컬 제출용 일괄 ZIP은 별도로 만들며 원본을 중복 저장하지 않도록 이 저장소에는 올리지 않습니다.
 

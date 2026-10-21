@@ -1,0 +1,62 @@
+{
+  "status": "LOCAL_VERIFIED_REMOTE_PENDING",
+  "scope": "Packaging and file integrity, not runtime or field acceptance",
+  "source_files": 1007,
+  "lfs_files": {
+    "docs/M1_M2_dataset_evidence_v002.zip": {
+      "oid": "3c991ac98bb6c48141403f7142a7a4dc2ece84f4bf468aa2459039a3f973b42e",
+      "size": 373981270
+    }
+  },
+  "source_repositories_written": false,
+  "source_readmes_modified_only": true,
+  "starting_target_commit": "f4c9b034b221964e48831476d3aeb859dc9d8753",
+  "workflow_run": "39531979572",
+  "navigation_checks": [
+    {
+      "file": "README.md",
+      "checked": 40,
+      "missing": []
+    },
+    {
+      "file": "project/README.md",
+      "checked": 12,
+      "missing": []
+    },
+    {
+      "file": "docs/README.md",
+      "checked": 42,
+      "missing": []
+    }
+  ],
+  "evidence_zip_checks": [
+    {
+      "path": "docs/Engine_Integrated_Test_Evidence_v001.zip",
+      "bytes": 31822254,
+      "sha256": "c2f4b068f372cb2f9a972107e49b0862b27692f5ab7ac660ff0c1afc9aad1ace",
+      "members": 150,
+      "crc": "PASS"
+    },
+    {
+      "path": "docs/M1_M2_benchmark_evidence_v001.zip",
+      "bytes": 37112177,
+      "sha256": "06321e2cb49302744181615e126d4f2d62b20e4d2c2782e8b2a29f815876cf29",
+      "members": 608,
+      "crc": "PASS"
+    },
+    {
+      "path": "docs/M1_M2_dataset_evidence_v002.zip",
+      "bytes": 373981270,
+      "sha256": "3c991ac98bb6c48141403f7142a7a4dc2ece84f4bf468aa2459039a3f973b42e",
+      "members": 950,
+      "crc": "PASS"
+    },
+    {
+      "path": "docs/M1_M2_model_evaluation_evidence_v001.zip",
+      "bytes": 21474918,
+      "sha256": "39dcfc71690b130678943955ed898c42235426ab5612ea7107ede39693b85478",
+      "members": 188,
+      "crc": "PASS"
+    }
+  ]
+}

@@ -1,3 +1,6 @@
+> **통합 제출본:** [전체 안내](../README.md) · [실행·학습 코드](../project/) · [보고서·증빙](../docs/)
+> 아래 본문은 원본 설명을 보존하고 현재 자료로 이동하는 링크만 새 위치에 맞췄습니다. 과거 커밋 링크는 출처로 유지합니다.
+
 # On-Device AI 엔진 모형 조립 검사 시스템
 
 > **새 카메라 영상 → Jetson AI 검사 → 원본·판정 저장 완료 확인 → PLC Result·Done → LED·컨베이어**를 연결하고, 같은 검사 ID로 이력을 조회하는 온디바이스 비전 검사 프로젝트
@@ -14,8 +17,8 @@
 
 | 구분 | 저장소 | 확인할 내용 |
 |---|---|---|
-| 실행·학습 코드 | [Engine_Assembly_Defect_Inspector](https://github.com/tmdgns104/Engine_Assembly_Defect_Inspector) | Jetson 운영 코드, 학습 도구, 모델·설정, 설치 안내 |
-| 보고서·증빙 | [Engine_Assembly_Runtime_Review](https://github.com/tmdgns104/Engine_Assembly_Runtime_Review) | 문제정의·데이터·평가·통합시험 보고서, 원본 증빙, DB 검토 자료 |
+| 실행·학습 코드 | [Engine_Assembly_Defect_Inspector](./) | Jetson 운영 코드, 학습 도구, 모델·설정, 설치 안내 |
+| 보고서·증빙 | [Engine_Assembly_Runtime_Review](../docs/) | 문제정의·데이터·평가·통합시험 보고서, 원본 증빙, DB 검토 자료 |
 
 본문의 코드 링크는 평가 근거 커밋에 고정했다. 제출 문서의 파일별 버전과 다운로드 경로는 산출물 저장소의 목록에서 확인한다. 두 저장소의 역할을 분리하며, 산출물 저장소를 Jetson 실행 원본으로 사용하지 않는다.
 
@@ -319,7 +322,7 @@ Web:
 먼저 저장소를 받습니다.
 
 ```bash
-git clone https://github.com/tmdgns104/Engine_Assembly_Defect_Inspector.git
+git clone ./.git
 cd Engine_Assembly_Defect_Inspector
 ```
 
@@ -371,7 +374,7 @@ Engine_Assembly_Defect_Inspector/
 
 ## 11. 평가·검증 자료
 
-**실행·학습 코드는 [코드 저장소](https://github.com/tmdgns104/Engine_Assembly_Defect_Inspector), 보고서와 증빙 다운로드는 [산출물 저장소](https://github.com/tmdgns104/Engine_Assembly_Runtime_Review)에서 확인합니다.**
+**실행·학습 코드는 [코드 저장소](./), 보고서와 증빙 다운로드는 [산출물 저장소](../docs/)에서 확인합니다.**
 
 | 문서 | 확인할 내용 | 연결되는 근거 |
 |---|---|---|
@@ -430,7 +433,7 @@ Engine_Assembly_Defect_Inspector/
 | [설정·이력 조회](https://github.com/tmdgns104/Engine_Assembly_Defect_Inspector/blob/cfaa372eece0cd6a7dc659cc316c256fb4b6af76/docs/CONFIGURATION_AND_HISTORY_KO.md) | 운영 설정과 검색·상세·CSV |
 | [2026-10-18 운영 검증 기록](https://github.com/tmdgns104/Engine_Assembly_Defect_Inspector/blob/cfaa372eece0cd6a7dc659cc316c256fb4b6af76/docs/verification/CONFIG-UI-HISTORY-20261018.json) | 실물시험·후속 UI 변경 기록 |
 | [SQLite 보관본](https://github.com/tmdgns104/Engine_Assembly_Defect_Inspector/blob/cfaa372eece0cd6a7dc659cc316c256fb4b6af76/database/README.md) | 운영 원장과 보관본의 구분 |
-| [평가 보고서·증빙 목록](https://github.com/tmdgns104/Engine_Assembly_Runtime_Review) | 제출 문서별 버전과 다운로드 경로 |
+| [평가 보고서·증빙 목록](../docs/) | 제출 문서별 버전과 다운로드 경로 |
 
 ---
 
@@ -445,7 +448,7 @@ Engine_Assembly_Defect_Inspector/
 
 **핵심 성과는 모델 검출에 그치지 않고, 검사에 사용한 원본과 판정 사유를 보존한 뒤 PLC에 전달하고 같은 ID로 다시 조회할 수 있게 만든 점입니다.**
 
-[R02]: https://github.com/tmdgns104/Engine_Assembly_Runtime_Review/blob/main/02_%EC%97%94%EC%A7%84%EB%AA%A8%ED%98%95_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%85%8B_%EC%84%A4%EB%AA%85%EC%84%9C_v1.2.pdf
-[R03]: https://github.com/tmdgns104/Engine_Assembly_Runtime_Review/blob/main/03_%EC%97%94%EC%A7%84%EB%AA%A8%ED%98%95_%EB%AA%A8%EB%8D%B8_%ED%8F%89%EA%B0%80%EC%84%9C_v1.1.pdf
-[R05]: https://github.com/tmdgns104/Engine_Assembly_Runtime_Review/blob/main/05_%EC%97%94%EC%A7%84%EB%AA%A8%ED%98%95_%ED%86%B5%ED%95%A9%ED%85%8C%EC%8A%A4%ED%8A%B8_%EA%B2%B0%EA%B3%BC%EC%84%9C_v1.0.pdf
-[R06]: https://github.com/tmdgns104/Engine_Assembly_Runtime_Review/blob/main/06_%EC%97%94%EC%A7%84%EB%AA%A8%ED%98%95_DB_%EA%B5%AC%EC%A1%B0%EC%99%80_%EC%A1%B0%ED%9A%8C%EB%B0%A9%EC%8B%9D_v1.0.pdf
+[R02]: ../docs/02_%EC%97%94%EC%A7%84%EB%AA%A8%ED%98%95_%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%85%8B_%EC%84%A4%EB%AA%85%EC%84%9C_v1.2.pdf
+[R03]: ../docs/03_%EC%97%94%EC%A7%84%EB%AA%A8%ED%98%95_%EB%AA%A8%EB%8D%B8_%ED%8F%89%EA%B0%80%EC%84%9C_v1.1.pdf
+[R05]: ../docs/05_%EC%97%94%EC%A7%84%EB%AA%A8%ED%98%95_%ED%86%B5%ED%95%A9%ED%85%8C%EC%8A%A4%ED%8A%B8_%EA%B2%B0%EA%B3%BC%EC%84%9C_v1.0.pdf
+[R06]: ../docs/06_%EC%97%94%EC%A7%84%EB%AA%A8%ED%98%95_DB_%EA%B5%AC%EC%A1%B0%EC%99%80_%EC%A1%B0%ED%9A%8C%EB%B0%A9%EC%8B%9D_v1.0.pdf
