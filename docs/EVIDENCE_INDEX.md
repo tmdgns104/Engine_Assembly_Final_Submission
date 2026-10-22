@@ -1,6 +1,19 @@
 # 원본 증빙과 문서 근거 찾아보기
 
-승인 문서의 근거 ID를 현재 제출 경로로 연결한다. 원본 ZIP의 바이트·내부 경로와 과거 검토 기록은 변경하지 않았다. 아래 경로는 ZIP을 내려받아 압축 해제한 뒤 찾는다. 새 추론·현장시험·모델 변환의 결과가 아니다.
+승인 문서의 근거 ID를 현재 제출 경로로 연결한다. 원본 ZIP의 바이트·내부 경로와 과거 검토 기록은 변경하지 않았다. 각 보고서 표의 ZIP 내부 경로는 해당 ZIP을 내려받아 압축 해제한 뒤 찾는다. 아래 추가 영상은 ZIP 밖의 별도 제출 자료다.
+
+## 추가 제출 자료 — 발표·시연 영상
+
+**[제출용.mp4 열기](../video/%EC%A0%9C%EC%B6%9C%EC%9A%A9.mp4)** · **[MP4 실파일 다운로드](https://github.com/tmdgns104/Engine_Assembly_Final_Submission/raw/refs/heads/main/video/%EC%A0%9C%EC%B6%9C%EC%9A%A9.mp4)** · **[영상 안내·SHA-256](../video/README.md)**
+
+| 항목 | 확인 위치·내용 |
+|---|---|
+| 저장소 경로 | `video/제출용.mp4` — Git LFS |
+| 실파일 크기 | 475,576,256바이트, 약 475.6 MB |
+| 업로드 커밋 | [`1ad9bb8`](https://github.com/tmdgns104/Engine_Assembly_Final_Submission/commit/1ad9bb8e3c3ea5d37c61927154276030bb74af97), 2026-10-22 |
+| 검토 동선 | 영상 → [최종 결과보고서](10_final_report_v1_2.pdf) → 아래 세부 보고서별 원본 증빙 |
+
+이 영상은 기존 문서 패키징 이후 추가한 발표·시연 자료다. 아래 S·B·E·D 근거 ID와 기존 PDF·ZIP의 내용은 변경하지 않는다. 특히 기존 7회 통합시험의 검사 ID와 이 영상의 장면이 개별적으로 대응한다고 새로 확정하거나, 영상 추가로 시험 횟수·정량 성능을 바꾸지 않는다. 이번 인덱스 갱신은 새 추론·현장시험·모델 변환 결과가 아니다.
 
 ## 02 데이터셋 설명서
 
@@ -39,7 +52,7 @@
 | S11 | `M1/parity/parts_parity_v001.json`<br>`M1/parity/reference/`<br>`verification/parity_record_audit.json` |
 | S12 | `bundle_manifest.json`<br>`verification/bundle_checks.json` |
 
-B1 → [M1_M2_benchmark_evidence_v001.zip](M1_M2_benchmark_evidence_v001.zip)의 `protocol.json`, `accuracy_summary.csv`, `accuracy_by_class.csv`, `model_hashes.json`, `remote_results/results/`의 전체 예측. S12의 ZIP 옆 검증은 과거 기록의 표현이며 현재 제출 검증은 [PACKAGING_VERIFICATION.json](PACKAGING_VERIFICATION.json)에 있다.
+B1 → [M1_M2_benchmark_evidence_v001.zip](M1_M2_benchmark_evidence_v001.zip)의 `protocol.json`, `accuracy_summary.csv`, `accuracy_by_class.csv`, `model_hashes.json`, `remote_results/results/`의 전체 예측. S12의 ZIP 옆 검증은 과거 기록의 표현이며 문서 패키징 당시 제출 검증은 [PACKAGING_VERIFICATION.json](PACKAGING_VERIFICATION.json)에 있다. 후속 영상·안내 문서 추가의 검증 기록과는 구분한다.
 
 ## 04 최적화 전후 Benchmark
 
