@@ -1,13 +1,21 @@
-> **통합 제출본:** [전체 안내](../README.md) · [실행·학습 코드](../project/) · [보고서·증빙](../docs/)
-> 아래 본문은 원본 설명을 보존하고 현재 자료로 이동하는 링크만 새 위치에 맞췄습니다. 과거 커밋 링크는 출처로 유지합니다.
+> **통합 제출본:** [전체 안내](../README.md) · [실행·학습 코드](../project/) · [보고서·증빙](../docs/) · [발표·시연 영상](../video/README.md)
+> 원본 보고서·증빙은 보존하고, 안내 문서는 통합 저장소 위치와 2026-10-22 영상 추가 상태에 맞췄습니다. 과거 커밋 링크는 출처로 유지합니다.
 
 # Engine Assembly — 최종 문서와 원본 증빙
 
-Engine_Assembly_Defect_Inspector 프로젝트의 산출물 저장소입니다. **최종 결과보고서 → 세부 보고서 → 대응 원본 증빙·DB 조회 자료** 순서로 검토할 수 있습니다.
+Engine_Assembly_Defect_Inspector 프로젝트의 산출물 폴더입니다. **발표·시연 영상 → 최종 결과보고서 → 세부 보고서 → 대응 원본 증빙·DB 조회 자료** 순서로 검토할 수 있습니다.
 
-**시작:** [최종 결과보고서 v1.2](10_final_report_v1_2.pdf) · [제출 안내](00_%EC%A0%9C%EC%B6%9C%EC%95%88%EB%82%B4.md) · [근거 ID별 원본 경로](EVIDENCE_INDEX.md)
+**시작:** [발표·시연 영상](../video/README.md) · [최종 결과보고서 v1.2](10_final_report_v1_2.pdf) · [제출 안내](00_%EC%A0%9C%EC%B6%9C%EC%95%88%EB%82%B4.md) · [근거 ID별 원본 경로](EVIDENCE_INDEX.md)
 
-[실행·학습 코드 저장소](../project/)의 README는 승인 09 v1.1과 동일합니다.
+[실행·학습 코드](../project/)의 README는 승인 09 v1.1을 바탕으로 하며, 통합 제출용 안내 링크는 별도로 조정되어 있습니다. 원본 09 문서는 아래 목록에서 확인할 수 있습니다.
+
+## 발표·시연 영상
+
+**[제출용.mp4 열기](../video/%EC%A0%9C%EC%B6%9C%EC%9A%A9.mp4)** · **[MP4 실파일 다운로드](https://github.com/tmdgns104/Engine_Assembly_Final_Submission/raw/refs/heads/main/video/%EC%A0%9C%EC%B6%9C%EC%9A%A9.mp4)**
+
+영상은 `docs/`가 아닌 저장소 루트의 **`video/제출용.mp4`**에 있습니다. 파일 크기는 **475,576,256바이트(약 475.6 MB)**이며 Git LFS로 제공합니다. 재생·다운로드 방법과 SHA-256은 [영상 안내](../video/README.md)에 정리했습니다.
+
+영상은 기존 보고서·원본 증빙과 함께 보는 후속 제출 자료입니다. 아래 승인 문서의 버전·성능 수치·시험 횟수는 영상 추가로 변경하지 않았습니다.
 
 ## 최신 문서
 
@@ -36,12 +44,13 @@ Engine_Assembly_Defect_Inspector 프로젝트의 산출물 저장소입니다. *
 
 원본 ZIP의 바이트와 내부 경로를 보존했습니다. 05·06 문서의 통합시험 증빙은 한 벌을 공유합니다.
 DB·SQL·예상 CSV는 [DB 검토 자료](review_kit/README_KO.md)에서, 과거 문서 작성·검토 기록은 [문서별 audit](document_audits/)에서 확인합니다.
-과거 검증 기록은 당시 범위이며, 이번 자료 정리·무결성·로컬 조회 검증은 [PACKAGING_VERIFICATION.json](PACKAGING_VERIFICATION.json)에 따로 기록했습니다.
+과거 자료 정리·무결성·로컬 조회 검증은 [PACKAGING_VERIFICATION.json](PACKAGING_VERIFICATION.json)에 기록되어 있습니다. 이 기록은 당시 문서 패키징 범위이며 후속 영상·안내 문서 추가의 검증으로 바꾸지 않습니다.
 
 ## 다운로드
 
-큰 데이터셋 ZIP은 [실파일 다운로드](https://github.com/tmdgns104/Engine_Assembly_Final_Submission/raw/refs/heads/main/docs/M1_M2_dataset_evidence_v002.zip)를 사용하거나 Git LFS로 clone 후 `git lfs pull`을 실행하세요.
-Code → Download ZIP의 LFS 실파일 포함은 확인하지 않았습니다. [파일별 SHA-256](FILE_MANIFEST.json)으로 내려받은 파일을 확인할 수 있습니다.
+큰 데이터셋 ZIP은 [실파일 다운로드](https://github.com/tmdgns104/Engine_Assembly_Final_Submission/raw/refs/heads/main/docs/M1_M2_dataset_evidence_v002.zip)를, 제출 영상은 [MP4 실파일 다운로드](https://github.com/tmdgns104/Engine_Assembly_Final_Submission/raw/refs/heads/main/video/%EC%A0%9C%EC%B6%9C%EC%9A%A9.mp4)를 사용하세요. 통합 저장소를 Git LFS로 clone한 뒤 `git lfs pull`을 실행하면 두 대용량 파일을 함께 받을 수 있습니다.
+
+Code → Download ZIP의 LFS 실파일 포함은 확인하지 않았습니다. [원본 문서 패키징 당시 파일별 SHA-256](FILE_MANIFEST.json)은 당시 자료의 확인용입니다. 영상의 크기·SHA-256과 안내 갱신 범위는 [영상 안내](../video/README.md)를 참고하세요.
 로컬 제출용 일괄 ZIP은 별도로 만들며 원본을 중복 저장하지 않도록 이 저장소에는 올리지 않습니다.
 
 ## 기존 문서 링크 호환
@@ -54,10 +63,11 @@ Code → Download ZIP의 LFS 실파일 포함은 확인하지 않았습니다. [
 [버전 대응표](DOCUMENT_VERSION_MAP.md)에 과거 참조와 최신 제출본을 정리했습니다.
 기존 [07 실행코드 근거맵](07_Jetson_%EC%8B%A4%ED%96%89%EC%BD%94%EB%93%9C_%EA%B7%BC%EA%B1%B0%EB%A7%B5.md)도 출처 보존용이며 최신 실행 안내는 07 v1.1을 우선합니다.
 
-## 파일 구성과 확인 한계
+## 파일 구성과 확인 범위
 
-안내 README·manifest·현재 검증 JSON을 제외한 보존 자료와 인덱스는 **79개, 529,489,873 bytes**입니다. 세 파일을 포함한 제출 트리는 **82개 파일**이며 정확한 개별 용량은 manifest와 로컬 검증 보고서에 기록합니다.
+원본 문서 저장소의 패키징 당시 안내 README·manifest·검증 JSON을 제외한 보존 자료와 인덱스는 **79개, 529,489,873 bytes**, 세 파일을 포함한 트리는 **82개 파일**이었습니다. 이는 당시 기록이며, 이후 안내 문서 수정·별도 `video/` 추가를 포함하는 현재 통합 저장소 전체의 파일 수나 용량이 아닙니다. 원본 해시 목록과 검증 JSON은 과거 기록으로 유지합니다.
 
 실패·중단·빈 라벨·초안·승인·REVIEW/ERROR/PENDING 기록은 그대로 보존했습니다.
-01 R0·08 P0에 인용된 초기 계획 원문은 이번 입력과 평가 코드 트리에서 확인하지 못했습니다. 상세 범위는 [EVIDENCE_INDEX.md](EVIDENCE_INDEX.md)를 참고하세요.
-새 현장시험이나 운영 장치 변경은 수행하지 않았으며, PPT·시연영상 포함 여부를 인증하는 묶음은 아닙니다.
+01 R0·08 P0에 인용된 초기 계획 원문은 당시 입력과 평가 코드 트리에서 확인하지 못했습니다. 상세 범위는 [EVIDENCE_INDEX.md](EVIDENCE_INDEX.md)를 참고하세요.
+
+최종 제출 영상은 `../video/제출용.mp4`에 포함되어 있습니다. 이번에는 안내 문서를 갱신했으며 새 현장시험이나 운영 장치 변경은 수행하지 않았습니다. 발표용 PPT/PPTX의 포함 여부는 별도 확인 대상입니다.
