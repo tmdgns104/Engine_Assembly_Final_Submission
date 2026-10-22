@@ -1,8 +1,16 @@
 # On-Device AI 엔진 모형 조립 검사 시스템 — 최종 제출
 
-카메라·센서 입력, Jetson AI 검사, 원본·판정 저장, PLC와 LED·컨베이어 연계를 구현한 프로젝트의 **실행 코드와 평가 문서를 한 저장소에 모았습니다.**
+카메라·센서 입력, Jetson AI 검사, 원본·판정 저장, PLC와 LED·컨베이어 연계를 구현한 프로젝트의 **실행 코드·평가 문서·발표 시연 영상을 한 저장소에 모았습니다.**
 
-**검토 시작:** [최종 결과보고서 v1.2](docs/10_final_report_v1_2.pdf) · [프로젝트 상세](project/README.md) · [전체 문서·증빙](docs/README.md)
+**검토 시작:** [발표·시연 영상](video/README.md) · [최종 결과보고서 v1.2](docs/10_final_report_v1_2.pdf) · [프로젝트 상세](project/README.md) · [전체 문서·증빙](docs/README.md)
+
+## 발표·시연 영상
+
+**[제출 영상 파일 열기](video/%EC%A0%9C%EC%B6%9C%EC%9A%A9.mp4)** · **[MP4 실파일 다운로드](https://github.com/tmdgns104/Engine_Assembly_Final_Submission/raw/refs/heads/main/video/%EC%A0%9C%EC%B6%9C%EC%9A%A9.mp4)**
+
+`video/제출용.mp4` — **475,576,256바이트, 약 475.6 MB**, Git LFS로 제공됩니다. GitHub 화면에서 재생되지 않으면 내려받아 로컬 동영상 플레이어로 재생하세요. 파일 SHA-256과 받는 방법은 [영상 안내](video/README.md)에 있습니다.
+
+영상으로 시연을 확인한 뒤 최종 결과보고서와 세부 증빙을 함께 검토할 수 있습니다. 영상 추가는 기존 보고서의 시험 수치·운영 범위를 변경하지 않습니다.
 
 ## 폴더 안내
 
@@ -10,8 +18,9 @@
 |---|---|
 | [project/](project/) | 기존 코드 저장소의 전체 추적 파일: 실행·학습 코드, 모델·설정, 설치 안내, 내부 개발 문서 |
 | [docs/](docs/) | 기존 문서 저장소의 전체 추적 파일: 제출 보고서, 편집본, 원본 증빙 ZIP, DB 검토 자료 |
+| [video/](video/README.md) | 최종 발표·시연 영상 `제출용.mp4`, 열기·다운로드·파일 확인 안내 |
 
-두 폴더는 서브모듈이나 외부 저장소 바로가기가 아닌 **실제 파일 폴더**입니다. `project/docs/`는 프로젝트 내부 문서이며 루트의 `docs/`와 구분합니다.
+`project/`와 `docs/`는 서브모듈이나 외부 저장소 바로가기가 아닌 **실제 파일 폴더**입니다. `video/`의 MP4는 Git LFS로 관리합니다. `project/docs/`는 프로젝트 내부 문서이며 루트의 `docs/`와 구분합니다.
 
 ## 평가 문서 바로가기
 
@@ -45,7 +54,7 @@
 
 ## 내려받기와 실행 위치
 
-전체 데이터셋 ZIP은 Git LFS 파일입니다. 실제 파일까지 내려받으려면 Git LFS가 설치된 환경에서 다음을 사용합니다.
+전체 데이터셋 ZIP과 제출 영상 MP4는 Git LFS 파일입니다. 실제 파일까지 내려받으려면 Git LFS가 설치된 환경에서 다음을 사용합니다.
 
 ```bash
 git lfs install
@@ -55,25 +64,28 @@ git lfs pull
 cd project
 ```
 
-기존 실행 안내의 프로젝트 루트는 이제 **`project/`**입니다. 위 `cd project` 이후 해당 환경에 맞는 설치·실행 안내를 따르세요.
+기존 실행 안내의 프로젝트 루트는 이제 **`project/`**입니다. 위 `cd project` 이후 해당 환경에 맞는 설치·실행 안내를 따르세요. 영상은 저장소 루트의 `video/`에 있으며, 실행·학습 코드와 별도로 열람할 수 있습니다.
 
 - [Jetson 운영본 설치 안내](project/jetson/INSTALL_OPERATING_KO.md)
 - [학습 코드와 자료 안내](project/notebook/training/README_KO.md)
 - [데이터셋 ZIP 실파일 다운로드](https://github.com/tmdgns104/Engine_Assembly_Final_Submission/raw/refs/heads/main/docs/M1_M2_dataset_evidence_v002.zip)
+- [제출 영상 MP4 실파일 다운로드](https://github.com/tmdgns104/Engine_Assembly_Final_Submission/raw/refs/heads/main/video/%EC%A0%9C%EC%B6%9C%EC%9A%A9.mp4)
 
-GitHub의 `Code → Download ZIP`에 LFS 실파일까지 포함되는지는 이 작업에서 검증하지 않았습니다. 전체 파일 확보에는 위 Git LFS 방식 또는 개별 실파일 다운로드를 사용하세요.
+GitHub의 `Code → Download ZIP`에 LFS 실파일까지 포함되는지는 이 안내에서 보증하지 않습니다. 전체 파일 확보에는 위 Git LFS 방식 또는 개별 실파일 다운로드를 사용하세요.
 
 ## 출처와 검증
 
-이 저장소는 아래 두 커밋의 스냅샷입니다. 원본 저장소와 운영 장치는 변경하지 않았으며, 원본의 후속 변경이 자동 동기화되지는 않습니다.
+`project/`와 `docs/`는 아래 두 커밋을 기준으로 가져온 자료입니다. 원본 저장소와 운영 장치는 변경하지 않았으며, 원본의 후속 변경이 자동 동기화되지는 않습니다. 통합 후 안내 문서 변경은 이 저장소의 Git 이력에 남깁니다.
 
 | 폴더 | 원본 저장소 | 고정 커밋 |
 |---|---|---|
 | project/ | [tmdgns104/Engine_Assembly_Defect_Inspector](https://github.com/tmdgns104/Engine_Assembly_Defect_Inspector) | `bdadacc51c6c9b03d67a57ed7bbe10366a06cc4c` |
 | docs/ | [tmdgns104/Engine_Assembly_Runtime_Review](https://github.com/tmdgns104/Engine_Assembly_Runtime_Review) | `fa9774e1e08f83b6f287c27f018cee78f7febe5f` |
 
-[출처·수량](SOURCE_REVISIONS.json) · [파일별 보존·해시 목록](.submission/FILE_MANIFEST.json) · [이전 검증](.submission/MIGRATION_VERIFICATION.json)
+[최초 통합 출처·수량](SOURCE_REVISIONS.json) · [최초 파일별 보존·해시 목록](.submission/FILE_MANIFEST.json) · [최초 이전 검증](.submission/MIGRATION_VERIFICATION.json)
 
-원본 README 두 개는 [.submission/original_readmes/](.submission/original_readmes/)에도 보존했습니다. 통합 폴더의 README는 안내 링크만 새 위치로 연결하며, 과거 근거 커밋·보고서 내부 링크는 원문 출처로 보존합니다.
+위 JSON은 최초 통합 당시의 기록으로 보존합니다. 이후 추가한 영상과 안내 문서를 포함하는 현재 전체 목록으로 해석하지 않습니다. 영상은 2026-10-22 커밋 [`1ad9bb8`](https://github.com/tmdgns104/Engine_Assembly_Final_Submission/commit/1ad9bb8e3c3ea5d37c61927154276030bb74af97)에 추가되었으며, 파일 크기·SHA-256과 확인 범위는 [영상 안내](video/README.md)에 정리했습니다.
 
-이번 작업은 파일 통합과 다운로드 검증입니다. 새로운 모델 학습·현장시험·Jetson 또는 PLC 배포를 수행한 것은 아닙니다. PPT·시연영상은 실제 파일 포함 여부를 별도로 확인해야 하며, 이 통합만으로 모든 제출 요건의 완료를 의미하지는 않습니다.
+원본 README 두 개는 [.submission/original_readmes/](.submission/original_readmes/)에도 보존했습니다. 현재 안내 문서는 통합 저장소의 위치와 영상 추가 상태를 반영하고, 과거 근거 커밋·보고서 내부 링크는 원문 출처로 보존합니다.
+
+시연영상은 `video/제출용.mp4`로 포함되어 있습니다. 이번 문서 갱신은 제출 자료 안내를 연결한 작업이며 새로운 모델 학습·현장시험·Jetson 또는 PLC 배포를 수행한 것은 아닙니다. 발표용 PPT/PPTX의 포함 여부는 별도 확인 대상입니다.
