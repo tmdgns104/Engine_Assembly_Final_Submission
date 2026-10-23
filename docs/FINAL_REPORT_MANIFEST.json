@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "scope": "Current final report only; historical package and migration manifests remain unchanged.",
+  "document_id": "10",
+  "latest_version": "1.3",
+  "updated_date_kst": "2026-10-23",
+  "source": "User-provided original files, copied without regeneration or conversion.",
+  "based_on_repository_commit": "865c7d9ea3c866a0f4e2ad36543984de58a8857c",
+  "latest_files": [
+    {
+      "path": "docs/10_final_report_v1_3.pdf",
+      "bytes": 1228581,
+      "sha256": "d8ff68f9419fa613b383c10bab12dbeb83fc84a27b6fc1f842821aa63ec3d4bc",
+      "version": "1.3"
+    },
+    {
+      "path": "docs/10_final_report_v1_3.docx",
+      "bytes": 2739745,
+      "sha256": "211a4069f782edc93b016099bf68c84f44941e3d2819d1f7121161713547ad9e",
+      "version": "1.3"
+    }
+  ],
+  "compatibility_only_files": [
+    {
+      "path": "docs/10_final_report_v1_2.pdf",
+      "bytes": 1202229,
+      "sha256": "2c6500497a9a3e683d39412d4a81921be80237cd25e041a99149095f2f479ca6",
+      "version": "1.2"
+    },
+    {
+      "path": "docs/10_final_report_v1_2.docx",
+      "bytes": 2737999,
+      "sha256": "9e3199504e39657f8d40e4ff77848a6d68cc9294dca799057687241d0b29fb24",
+      "version": "1.2"
+    }
+  ],
+  "historical_records_preserved": [
+    "docs/FILE_MANIFEST.json",
+    "docs/PACKAGING_VERIFICATION.json",
+    ".submission/FILE_MANIFEST.json",
+    ".submission/MIGRATION_VERIFICATION.json"
+  ]
+}

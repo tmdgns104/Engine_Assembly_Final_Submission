@@ -11,7 +11,7 @@
 | 저장소 경로 | `video/제출용.mp4` — Git LFS |
 | 실파일 크기 | 475,576,256바이트, 약 475.6 MB |
 | 업로드 커밋 | [`1ad9bb8`](https://github.com/tmdgns104/Engine_Assembly_Final_Submission/commit/1ad9bb8e3c3ea5d37c61927154276030bb74af97), 2026-10-22 |
-| 검토 동선 | 영상 → [최종 결과보고서](10_final_report_v1_2.pdf) → 아래 세부 보고서별 원본 증빙 |
+| 검토 동선 | 영상 → [최종 결과보고서](10_final_report_v1_3.pdf) → 아래 세부 보고서별 원본 증빙 |
 
 이 영상은 기존 문서 패키징 이후 추가한 발표·시연 자료다. 아래 S·B·E·D 근거 ID와 기존 PDF·ZIP의 내용은 변경하지 않는다. 특히 기존 7회 통합시험의 검사 ID와 이 영상의 장면이 개별적으로 대응한다고 새로 확정하거나, 영상 추가로 시험 횟수·정량 성능을 바꾸지 않는다. 이번 인덱스 갱신은 새 추론·현장시험·모델 변환 결과가 아니다.
 
@@ -132,7 +132,7 @@ M1 `jetson/products/ENGINE_Z3005_5/dynamic_parts_005/manifest.json`, M2 `jetson/
 | 04_Benchmark_제출묶음_v1.0.zip | Benchmark 원본 ZIP + `document_audits/04/` |
 | 05_통합테스트_제출묶음_v1.0.zip | 통합시험 원본 ZIP + `document_audits/05/` |
 | 06_DB_구조조회_제출묶음_v1.0.zip | 같은 통합시험 원본 ZIP 1개 + `review_kit/` + `document_audits/06/` |
-| engine_final_report_v1_1.zip | 최신 10 v1.2 개별 문서; 과거 검증·manifest는 `document_audits/old10/` |
+| engine_final_report_v1_1.zip | 최신 10 v1.3 개별 문서; 과거 검증·manifest는 `document_audits/old10/` |
 | 01_08_문제정의_프로젝트기획_제출묶음_v1.0.zip | 최신 01·08 v1.1; 이전 안내·manifest는 `document_audits/old01_08/` |
 
 ## 보존 범위와 확인 한계

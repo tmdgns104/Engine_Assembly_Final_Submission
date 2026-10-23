@@ -16,7 +16,7 @@ GitHub 화면에서 재생되지 않으면 실파일 다운로드 링크로 받�
 | 파일 크기 | **475,576,256바이트** — 약 475.6 MB |
 | 저장 방식 | Git LFS |
 | 영상 추가 커밋 | [`1ad9bb8e3c3ea5d37c61927154276030bb74af97`](https://github.com/tmdgns104/Engine_Assembly_Final_Submission/commit/1ad9bb8e3c3ea5d37c61927154276030bb74af97) |
-| 안내 갱신일 | 2026-10-22 |
+| 안내 갱신일 | 2026-10-23 |
 
 SHA-256:
 
@@ -43,7 +43,7 @@ git lfs pull --include="video/*.mp4"
 
 | 자료 | 확인 목적 |
 |---|---|
-| [최종 결과보고서](../docs/10_final_report_v1_2.pdf) | 프로젝트의 구성·성과·적용 범위 |
+| [최종 결과보고서](../docs/10_final_report_v1_3.pdf) | 프로젝트의 구성·성과·적용 범위 |
 | [전체 문서 목록](../docs/README.md) | 데이터셋·모델 평가·Benchmark·통합시험·DB 설명 |
 | [증빙 인덱스](../docs/EVIDENCE_INDEX.md) | 보고서 수치와 검사 기록의 원본 위치 |
 | [프로젝트 상세](../project/README.md) | Jetson 검사·저장·PLC 응답의 소프트웨어 흐름 |

@@ -2,7 +2,7 @@
 
 카메라·센서 입력, Jetson AI 검사, 원본·판정 저장, PLC와 LED·컨베이어 연계를 구현한 프로젝트의 **실행 코드·평가 문서·발표 시연 영상을 한 저장소에 모았습니다.**
 
-**검토 시작:** [발표·시연 영상](video/README.md) · [최종 결과보고서 v1.2](docs/10_final_report_v1_2.pdf) · [프로젝트 상세](project/README.md) · [전체 문서·증빙](docs/README.md)
+**검토 시작:** [발표·시연 영상](video/README.md) · [최종 결과보고서 v1.3](docs/10_final_report_v1_3.pdf) · [프로젝트 상세](project/README.md) · [전체 문서·증빙](docs/README.md)
 
 ## 발표·시연 영상
 
@@ -37,8 +37,10 @@
 | 07 | [Jetson 실행·변환 절차서](docs/07_%EC%97%94%EC%A7%84%EB%AA%A8%ED%98%95_Jetson_%EC%8B%A4%ED%96%89_ONNX_TensorRT_%EC%A0%88%EC%B0%A8%EC%84%9C_v1.1.pdf) | 1.1 | 634,030 B | [DOCX](docs/07_%EC%97%94%EC%A7%84%EB%AA%A8%ED%98%95_Jetson_%EC%8B%A4%ED%96%89_ONNX_TensorRT_%EC%A0%88%EC%B0%A8%EC%84%9C_v1.1.docx) |
 | 08 | [프로젝트 기획안](docs/08_%EC%97%94%EC%A7%84%EB%AA%A8%ED%98%95_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%95%88_v1.1.pdf) | 1.1 | 319,435 B | [DOCX](docs/08_%EC%97%94%EC%A7%84%EB%AA%A8%ED%98%95_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B8%B0%ED%9A%8D%EC%95%88_v1.1.docx) |
 | 09 | [코드 저장소 README](docs/09_project_readme_v1_1.md) | 1.1 | 28,791 B | [HTML](docs/09_project_readme_v1_1.html) |
-| 10 | [최종 결과보고서](docs/10_final_report_v1_2.pdf) | 1.2 | 1,202,229 B | [DOCX](docs/10_final_report_v1_2.docx) |
+| 10 | [최종 결과보고서](docs/10_final_report_v1_3.pdf) | 1.3 | 1,228,581 B | [DOCX](docs/10_final_report_v1_3.docx) |
 | 11 | [데이터셋 구축 프로그램 설명서](docs/11_dataset_program_manual_v1_0.pdf) | 1.0 | 518,367 B | [DOCX](docs/11_dataset_program_manual_v1_0.docx) |
+
+최종 결과보고서의 최신 제출본은 **v1.3**이다. [PDF·DOCX 크기와 SHA-256](docs/FINAL_REPORT_MANIFEST.json)을 확인할 수 있으며, v1.2 파일은 기존 링크 호환용으로 보존한다.
 
 ## 원본 증빙과 DB
 
@@ -75,7 +77,7 @@ GitHub의 `Code → Download ZIP`에 LFS 실파일까지 포함되는지는 이 
 
 ## 출처와 검증
 
-`project/`와 `docs/`는 아래 두 커밋을 기준으로 가져온 자료입니다. 원본 저장소와 운영 장치는 변경하지 않았으며, 원본의 후속 변경이 자동 동기화되지는 않습니다. 통합 후 안내 문서 변경은 이 저장소의 Git 이력에 남깁니다.
+`project/`와 `docs/`는 아래 두 커밋을 기준으로 가져온 자료입니다. 원본 저장소와 운영 장치는 변경하지 않았으며, 원본의 후속 변경이 자동 동기화되지는 않습니다. 통합 후 제출 영상과 최종 결과보고서 v1.3 추가, 안내 문서 변경은 이 저장소의 Git 이력에 남깁니다.
 
 | 폴더 | 원본 저장소 | 고정 커밋 |
 |---|---|---|
@@ -88,4 +90,4 @@ GitHub의 `Code → Download ZIP`에 LFS 실파일까지 포함되는지는 이 
 
 원본 README 두 개는 [.submission/original_readmes/](.submission/original_readmes/)에도 보존했습니다. 현재 안내 문서는 통합 저장소의 위치와 영상 추가 상태를 반영하고, 과거 근거 커밋·보고서 내부 링크는 원문 출처로 보존합니다.
 
-시연영상은 `video/제출용.mp4`로 포함되어 있습니다. 이번 문서 갱신은 제출 자료 안내를 연결한 작업이며 새로운 모델 학습·현장시험·Jetson 또는 PLC 배포를 수행한 것은 아닙니다. 발표용 PPT/PPTX의 포함 여부는 별도 확인 대상입니다.
+시연영상은 `video/제출용.mp4`로 포함되어 있습니다. 이번 갱신은 최종 결과보고서 v1.3을 추가하고 제출 자료 안내를 연결한 작업이며 새로운 모델 학습·현장시험·Jetson 또는 PLC 배포를 수행한 것은 아닙니다. 발표용 PPT/PPTX의 포함 여부는 별도 확인 대상입니다.
